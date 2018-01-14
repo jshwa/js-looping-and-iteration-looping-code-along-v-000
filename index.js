@@ -5,3 +5,10 @@ function printBadges(names) {
   }
   return names;
 }
+
+function tailsNeverFails() {
+  let i = 0;
+  while (Math.random() >= .5){
+    i++;
+  }
+}
